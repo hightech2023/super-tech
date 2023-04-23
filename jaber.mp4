@@ -1,0 +1,7 @@
+echo "# super-tech" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hightech2023/super-tech.git
+git push -u origin main
